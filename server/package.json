@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "nodemon": "nodemon server"
+  },
+  "author": "Dhairya Soni",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "sass": "^1.69.5",
+    "sass-middleware": "^0.0.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  }
+}
